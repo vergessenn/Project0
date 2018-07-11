@@ -1,44 +1,44 @@
-#header {
 
-}
-#picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-}
-
-table, th, td {
-  color: darkblue;
-  text-align: center;
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 5px;
-}
-.centered {
-
-  margin-right: auto;
-  margin-left: auto;
-
-}
-ul{
-  padding-left: 25%;
-}
-
-.headertxt {
+#homeheader {
+  color: #d33b3b;
   font-weight: bold;
-  font-family: Arial;
-  text-align: center;
-  color: darkblue;
-  font-size: 20px;
-}
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
+  font-size: 70px;
+  padding-left: 160px;
 }
 
-#container{
-  background-color: lightgrey;
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(229, 114, 114, 0.5);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+ .maintext:hover{
+  background-color: #ce7171;
+  color: white;
+}
+
+.sidenav a:hover {
+  color: #e24a4a;
+}
+.maintext{
+  text-align: justify;
+  color: black;
+  padding-left: 170px;
+  padding-right: 35px;
+  padding-top: 25px;
+
+  font-family: "Helvetica Neue";
 }
